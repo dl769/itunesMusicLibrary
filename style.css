@@ -106,3 +106,6 @@ font-size: larger;
   #footertxt{
     margin-top: 10px;
   }
+  #mygit:hover{
+      cursor: pointer;
+  }

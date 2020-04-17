@@ -35,7 +35,14 @@ $('input[type=text]').on('keydown', function(e) {
 //     });
 // }
 
-
+function mygit(){
+window.open(
+    'https://dl769.github.io/portfoliopage',
+    '_blank'
+  );
+  
+  
+}
 
 function search(){
 

@@ -1,0 +1,108 @@
+.searchResult{
+    border: inset white;
+    border-radius: 3%;
+    border-width: 4px;
+    background-color: #201f1e;
+    width: 20em;
+    height: 15em;
+    margin: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+
+}
+.searchResult:hover{
+    border: inset red;
+    border-width: 4px;
+}
+.trackName{
+    
+    font-size: x-large;
+    color: White;
+}
+.artistName{
+    font-size: medium;
+    color: grey;
+}
+
+body{
+    background-color: #CCC6C0;
+    text-align: center;
+}
+#navbar{
+    background-color: #000000;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+    margin: 0;
+    height: 10em;
+    margin-right: -.5em;
+    margin-top: -1.3em;
+    margin-left: -0.5em;
+}
+#searchForm{
+    width: 8em;
+    height: 1.5em;
+    font-size: large;
+    border-radius: 5%;
+     -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+    text-align: center;
+}
+
+#searchForm[type=text]:hover{
+    width: 15em;
+  }
+  #searchForm[type=text]:focus{
+    width: 15em;
+  }
+  #sectionResults{
+      margin-top: 3em;
+  }
+
+  #submit{
+    margin-left: 1em;
+    height: 2.5em;
+    border-radius: 4%;
+    color: whitesmoke;
+    border: solid rgb(112, 105, 105);
+   
+  }
+  #submit:hover{
+    cursor: pointer;
+  }
+  #btntxt{
+color:black;
+font-size: larger;
+  }
+  .footer{
+ 
+    background-color: #000000;
+    width: 100.8%;
+    margin-left: -0.5em;
+    margin-top: 1em;
+
+    color: white;
+  }
+
+
+
+  html, body {
+    height: 100%;
+  }
+
+  .page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -60px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .footer, .page-wrap:after {
+    height: 60px; 
+  }
+  #footertxt{
+    margin-top: 10px;
+  }
